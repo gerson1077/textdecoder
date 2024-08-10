@@ -1,0 +1,177 @@
+/* criação de variáveis */
+:root {
+    --cor-fundo: #f0f8e0;
+    --cor-botao: #8fb42c;
+    --cor-fonte: #2a423f;
+}
+
+* {
+    background-color: #f0f8e0;
+    font-family: "Inter", sans-serif;
+    font-weight: 25rem;
+    font-size: 1rem;
+    line-height: 130%;
+}
+
+.logo {
+    margin-left: 3.5rem;
+    padding-top: 0.5%;
+    width: 10rem;
+    height: 8rem;
+    
+    
+}
+
+.conteudo{
+    display: flex;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+    
+}
+
+.text-area {
+    background-color: white;
+    color: var(--cor-fonte);
+    margin-top: 30px;
+    text-transform: lowercase;
+    border-radius: 24px;
+    border-color: #8fb42c;
+}
+
+::placeholder {
+    color: var(--cor-fonte);
+    
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.instrucao {
+    color: var(--cor-fonte);
+    font-size: 0.9rem;
+}
+
+.mensagem {
+    background: white;
+    background-image: url(/imagens/cadeado.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius:24px ;
+    border-color: #8fb42c;
+    color: #8fb42c;
+    margin-left: 98px;
+    margin-top: 0px;
+    padding-left: 20px;
+    position: fixed;
+    width: 400px;
+    height: 344px;
+}
+
+.mensagem:focus{
+    outline: auto;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 15px;
+    gap: 24px;
+
+}
+
+
+
+.btn-encriptar {
+    background-color: var(--cor-botao);
+    border: 1px solid var(--cor-botao);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 250px;
+}
+
+.btn-encriptar:hover{
+    background-color: green;
+}
+
+.btn-desencriptar{
+    background-color: var(--cor-botao);
+    border: 1px solid var(--cor-botao);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 250px;
+}
+
+.btn-desencriptar:hover{
+    background-color: green;
+}
+
+.btn-copiar {
+    
+    border: 1px solid var(--cor-botao);
+    border-radius: 24px;
+    color: #7c848c;
+    cursor: pointer;
+    margin-left: 190px;
+    margin-top: 290px;
+    position: absolute;
+    height: 50px;
+    width: 250px;
+}
+
+.btn-copiar:hover{
+    background-color: green;
+    color: white;
+}
+
+.rodape{
+    color: var(--cor-fonte);
+    
+    padding: 24px;
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+
+/* @media (max-width: 900px){
+    .logo{
+        padding: 5%;
+        
+    }
+
+    .conteudo{
+        
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .mensagem {
+
+        flex-wrap: nowrap;
+        
+        padding: 5%;
+        width: 40%;
+        height: 10%;
+        gap: 20px;
+    }
+
+    .botoes{
+        padding: 20px;
+    }
+
+    .btn-copiar{
+        position: relative;
+        justify-content: center;
+        padding: auto;
+    }
+
+    .rodape{
+        padding: auto;
+    }
+
+
+} */

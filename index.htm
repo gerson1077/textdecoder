@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextDecoder</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/imagens/logo.png" alt="logo_textdecoder">
+    </header>
+    <main class="conteudo">
+        <section class="secao_1">
+            <textarea class="text-area" cols="41" rows="5" placeholder="Digite seu texto..."></textarea>
+            <div class="informacao">
+                <h6 class="instrucao">Digite apenas letras minúsculas e sem acentos.</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+
+        </section>
+                
+        <section class="secao_2">
+            <textarea class="mensagem" id="textAreaWithImage" cols="5" rows="2"></textarea>
+            
+            
+            
+            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+        </section>   
+            
+            
+        
+    </main>
+    <script src="/app.js"></script>
+    <footer class="rodape">
+        <p>Desenvolvido por GSoft</p>
+    </footer>
+
+</body>
+</html>
