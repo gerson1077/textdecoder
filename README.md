@@ -12,5 +12,5 @@ Este projeto utiliza as seguintes tecnologias:
 
 # Autor
 
-[<img loading="lazy" src="https://avatars.githubusercontent.com/u/173969058?v=4" width=115><br><sub>| Gerson Santos </sub>](https://https://github.com/gerson1077) |  
+[<img loading="lazy" src="https://avatars.githubusercontent.com/u/173969058?v=4" width=115><br><sub>| Gerson Santos </sub>](https://github.com/gerson1077) |  
 | :---: | :---: | :---: |
